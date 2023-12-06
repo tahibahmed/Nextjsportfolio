@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const Home = () => {
   return (
-    <div className="bg-primary/10 h-full">
+    <div className="bg-primary/10 h-full ">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black to-black/10">
-        <div className="text-center container h-full flex flex-col justify-center xl:pt-40 mx-auto xl:text-left">
+        <div className="text-center container h-full flex flex-col justify-center xl:pt-40 mx-auto   xl:text-left">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
